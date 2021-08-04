@@ -1,12 +1,9 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-}
+@use 'modules/modules' as *;
 
 .nav {
     display: flex;
-    background-color: white;
-    box-shadow: 0 0 10px #aaa;
+    background: $nav-background-color;
+    box-shadow: 0 0 10px $nav-shadow-color;
     justify-content: center;
 
     &__container {
@@ -40,14 +37,14 @@ body {
     }
 
     &__link {
-        color: #222;
+        color: $link-color;
         display: block;
         line-height: 1rem;
         padding: 1rem;
         text-decoration: none;
 
         &:hover {
-            background: #efefefef;
+            background: $link-hover-background-color;
         }
     }
 
@@ -65,14 +62,18 @@ body {
             display: flex;
             flex-wrap: wrap;
             cursor: pointer;
-            background: #8f44fd;
+            background: $best-purple-ever;
             height: 1.5rem;
             width: 1.5rem;
             padding: 0.75rem;
             border-radius: 0.25rem;
 
             &:hover {
-                background: red;
+                background: $best-purple-ever-hover;
+            }
+
+            &:hover .nav__hamburger-icon {
+                height: 0.3rem;
             }
 
             @media screen and (min-width: 40em) {
@@ -85,7 +86,7 @@ body {
             width: 2rem;
             height: 0.1875rem;
             border-radius: 0.25rem;
-            background: #f7f7f7;
+            background: $nav-background-color;
         }
     }
 }

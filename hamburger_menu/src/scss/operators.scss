@@ -1,0 +1,18 @@
+@debug 1px == 1; //false
+@debug 0.99999999999999 == 1; //true
+
+//MATH
+@debug (10px / 2);
+
+//STRING
+
+@debug "Times " + "New Roman";
+
+$postfix: "--10";
+.col#{$postfix}::after{
+    content: "";
+}
+.container::before {
+    font: 16px / 16px "Times " + "New Roman", Times, serif;
+    content: #{"track" + "list"}
+}

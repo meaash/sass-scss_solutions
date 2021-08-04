@@ -5,7 +5,7 @@ body {
 
 .nav {
   display: flex;
-  background-color: white;
+  background: #fff;
   box-shadow: 0 0 10px #aaa;
   justify-content: center;
 }
@@ -65,7 +65,10 @@ body {
   border-radius: 0.25rem;
 }
 .nav__hamburger-label:hover {
-  background: red;
+  background: #5b26aa;
+}
+.nav__hamburger-label:hover .nav__hamburger-icon {
+  height: 0.3rem;
 }
 @media screen and (min-width: 40em) {
   .nav__hamburger-label {
@@ -77,7 +80,7 @@ body {
   width: 2rem;
   height: 0.1875rem;
   border-radius: 0.25rem;
-  background: #f7f7f7;
+  background: #fff;
 }
 
 /*# sourceMappingURL=style-bem.css.map */
