@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  background-color: white;
+  box-shadow: 0 0 10px #aaa;
+  justify-content: center;
+}
+nav div {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row-reverse;
+  width: 100%;
+}
+@media screen and (min-width: 40em) {
+  nav div {
+    align-items: center;
+  }
+}
+nav div ul {
+  display: none;
+  list-style-type: none;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+}
+@media screen and (min-width: 40em) {
+  nav div ul {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+  }
+}
+nav div ul li {
+  text-align: center;
+}
+nav div ul li a {
+  color: #222;
+  display: block;
+  line-height: 1rem;
+  padding: 1rem;
+  text-decoration: none;
+}
+nav div ul li a:hover {
+  background: #efefefef;
+}
+nav div input[type=checkbox] {
+  display: none;
+}
+nav div input[type=checkbox]:checked + ul {
+  display: flex;
+}
+nav div label {
+  display: flex;
+  flex-wrap: wrap;
+  cursor: pointer;
+  background: #8f44fd;
+  height: 1.5rem;
+  width: 1.5rem;
+  padding: 0.75rem;
+  border-radius: 0.25rem;
+}
+@media screen and (min-width: 40em) {
+  nav div label {
+    display: none;
+  }
+}
+
+.burger-icon {
+  position: relative;
+  width: 2rem;
+  height: 0.1875rem;
+  border-radius: 0.25rem;
+  background: #f7f7f7;
+}
+.burger-icon:hover {
+  color: red;
+}
+
+/*# sourceMappingURL=style.css.map */
