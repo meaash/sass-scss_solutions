@@ -150,6 +150,614 @@
   background: #78909c;
 }
 
+.background--darker-red-5 {
+  background: #f55a4e;
+}
+
+.background--darker-red-10 {
+  background: #f77066;
+}
+
+.background--darker-red-15 {
+  background: #f8877f;
+}
+
+.background--darker-red-20 {
+  background: #f99d97;
+}
+
+.background--darker-pink-5 {
+  background: #eb3573;
+}
+
+.background--darker-pink-10 {
+  background: #ee4c83;
+}
+
+.background--darker-pink-15 {
+  background: #f06493;
+}
+
+.background--darker-pink-20 {
+  background: #f27ba3;
+}
+
+.background--darker-purple-5 {
+  background: #af2cc5;
+}
+
+.background--darker-purple-10 {
+  background: #bc37d3;
+}
+
+.background--darker-purple-15 {
+  background: #c34cd7;
+}
+
+.background--darker-purple-20 {
+  background: #ca61dc;
+}
+
+.background--darker-deep-purple-5 {
+  background: #7446c4;
+}
+
+.background--darker-deep-purple-10 {
+  background: #8259cb;
+}
+
+.background--darker-deep-purple-15 {
+  background: #916dd1;
+}
+
+.background--darker-deep-purple-20 {
+  background: #9f80d7;
+}
+
+.background--darker-indigo-5 {
+  background: #4d5ec1;
+}
+
+.background--darker-indigo-10 {
+  background: #606fc7;
+}
+
+.background--darker-indigo-15 {
+  background: #7280ce;
+}
+
+.background--darker-indigo-20 {
+  background: #8591d5;
+}
+
+.background--darker-blue-5 {
+  background: #39a1f4;
+}
+
+.background--darker-blue-10 {
+  background: #51adf6;
+}
+
+.background--darker-blue-15 {
+  background: #6ab8f7;
+}
+
+.background--darker-blue-20 {
+  background: #82c4f8;
+}
+
+.background--darker-light-blue-5 {
+  background: #14b4fc;
+}
+
+.background--darker-light-blue-10 {
+  background: #2ebcfc;
+}
+
+.background--darker-light-blue-15 {
+  background: #47c4fd;
+}
+
+.background--darker-light-blue-20 {
+  background: #60ccfd;
+}
+
+.background--darker-cyan-5 {
+  background: #00d3ee;
+}
+
+.background--darker-cyan-10 {
+  background: #08e3ff;
+}
+
+.background--darker-cyan-15 {
+  background: #22e6ff;
+}
+
+.background--darker-cyan-20 {
+  background: #3be9ff;
+}
+
+.background--darker-teal-5 {
+  background: #00b09f;
+}
+
+.background--darker-teal-10 {
+  background: #00c9b6;
+}
+
+.background--darker-teal-15 {
+  background: #00e3cd;
+}
+
+.background--darker-teal-20 {
+  background: #00fce4;
+}
+
+.background--darker-green-5 {
+  background: #5cb860;
+}
+
+.background--darker-green-10 {
+  background: #6ec071;
+}
+
+.background--darker-green-15 {
+  background: #80c883;
+}
+
+.background--darker-green-20 {
+  background: #92cf94;
+}
+
+.background--darker-light-green-5 {
+  background: #97c95d;
+}
+
+.background--darker-light-green-10 {
+  background: #a4d070;
+}
+
+.background--darker-light-green-15 {
+  background: #b0d683;
+}
+
+.background--darker-light-green-20 {
+  background: #bcdc97;
+}
+
+.background--darker-lime-5 {
+  background: #d2e04f;
+}
+
+.background--darker-lime-10 {
+  background: #d8e464;
+}
+
+.background--darker-lime-15 {
+  background: #dde77a;
+}
+
+.background--darker-lime-20 {
+  background: #e3eb90;
+}
+
+.background--darker-yellow-5 {
+  background: #ffee55;
+}
+
+.background--darker-yellow-10 {
+  background: #fff06e;
+}
+
+.background--darker-yellow-15 {
+  background: #fff388;
+}
+
+.background--darker-yellow-20 {
+  background: #fff5a1;
+}
+
+.background--darker-amber-5 {
+  background: #ffc721;
+}
+
+.background--darker-amber-10 {
+  background: #ffce3a;
+}
+
+.background--darker-amber-15 {
+  background: #ffd454;
+}
+
+.background--darker-amber-20 {
+  background: #ffdb6d;
+}
+
+.background--darker-orange-5 {
+  background: #ffa21a;
+}
+
+.background--darker-orange-10 {
+  background: #ffad33;
+}
+
+.background--darker-orange-15 {
+  background: #ffb74d;
+}
+
+.background--darker-orange-20 {
+  background: #ffc166;
+}
+
+.background--darker-deep-orange-5 {
+  background: #ff6a3c;
+}
+
+.background--darker-deep-orange-10 {
+  background: #ff7e55;
+}
+
+.background--darker-deep-orange-15 {
+  background: #ff916f;
+}
+
+.background--darker-deep-orange-20 {
+  background: #ffa588;
+}
+
+.background--darker-brown-5 {
+  background: #896052;
+}
+
+.background--darker-brown-10 {
+  background: #996b5b;
+}
+
+.background--darker-brown-15 {
+  background: #a57868;
+}
+
+.background--darker-brown-20 {
+  background: #af8778;
+}
+
+.background--darker-grey-5 {
+  background: #ababab;
+}
+
+.background--darker-grey-10 {
+  background: #b8b8b8;
+}
+
+.background--darker-grey-15 {
+  background: #c4c4c4;
+}
+
+.background--darker-grey-20 {
+  background: #d1d1d1;
+}
+
+.background--darker-blue-grey-5 {
+  background: #6b8a99;
+}
+
+.background--darker-blue-grey-10 {
+  background: #7b96a3;
+}
+
+.background--darker-blue-grey-15 {
+  background: #8aa2ae;
+}
+
+.background--darker-blue-grey-20 {
+  background: #99aeb8;
+}
+
+.background--lighter-red-5 {
+  background: #f55a4e;
+}
+
+.background--lighter-red-10 {
+  background: #f77066;
+}
+
+.background--lighter-red-15 {
+  background: #f8877f;
+}
+
+.background--lighter-red-20 {
+  background: #f99d97;
+}
+
+.background--lighter-pink-5 {
+  background: #eb3573;
+}
+
+.background--lighter-pink-10 {
+  background: #ee4c83;
+}
+
+.background--lighter-pink-15 {
+  background: #f06493;
+}
+
+.background--lighter-pink-20 {
+  background: #f27ba3;
+}
+
+.background--lighter-purple-5 {
+  background: #af2cc5;
+}
+
+.background--lighter-purple-10 {
+  background: #bc37d3;
+}
+
+.background--lighter-purple-15 {
+  background: #c34cd7;
+}
+
+.background--lighter-purple-20 {
+  background: #ca61dc;
+}
+
+.background--lighter-deep-purple-5 {
+  background: #7446c4;
+}
+
+.background--lighter-deep-purple-10 {
+  background: #8259cb;
+}
+
+.background--lighter-deep-purple-15 {
+  background: #916dd1;
+}
+
+.background--lighter-deep-purple-20 {
+  background: #9f80d7;
+}
+
+.background--lighter-indigo-5 {
+  background: #4d5ec1;
+}
+
+.background--lighter-indigo-10 {
+  background: #606fc7;
+}
+
+.background--lighter-indigo-15 {
+  background: #7280ce;
+}
+
+.background--lighter-indigo-20 {
+  background: #8591d5;
+}
+
+.background--lighter-blue-5 {
+  background: #39a1f4;
+}
+
+.background--lighter-blue-10 {
+  background: #51adf6;
+}
+
+.background--lighter-blue-15 {
+  background: #6ab8f7;
+}
+
+.background--lighter-blue-20 {
+  background: #82c4f8;
+}
+
+.background--lighter-light-blue-5 {
+  background: #14b4fc;
+}
+
+.background--lighter-light-blue-10 {
+  background: #2ebcfc;
+}
+
+.background--lighter-light-blue-15 {
+  background: #47c4fd;
+}
+
+.background--lighter-light-blue-20 {
+  background: #60ccfd;
+}
+
+.background--lighter-cyan-5 {
+  background: #00d3ee;
+}
+
+.background--lighter-cyan-10 {
+  background: #08e3ff;
+}
+
+.background--lighter-cyan-15 {
+  background: #22e6ff;
+}
+
+.background--lighter-cyan-20 {
+  background: #3be9ff;
+}
+
+.background--lighter-teal-5 {
+  background: #00b09f;
+}
+
+.background--lighter-teal-10 {
+  background: #00c9b6;
+}
+
+.background--lighter-teal-15 {
+  background: #00e3cd;
+}
+
+.background--lighter-teal-20 {
+  background: #00fce4;
+}
+
+.background--lighter-green-5 {
+  background: #5cb860;
+}
+
+.background--lighter-green-10 {
+  background: #6ec071;
+}
+
+.background--lighter-green-15 {
+  background: #80c883;
+}
+
+.background--lighter-green-20 {
+  background: #92cf94;
+}
+
+.background--lighter-light-green-5 {
+  background: #97c95d;
+}
+
+.background--lighter-light-green-10 {
+  background: #a4d070;
+}
+
+.background--lighter-light-green-15 {
+  background: #b0d683;
+}
+
+.background--lighter-light-green-20 {
+  background: #bcdc97;
+}
+
+.background--lighter-lime-5 {
+  background: #d2e04f;
+}
+
+.background--lighter-lime-10 {
+  background: #d8e464;
+}
+
+.background--lighter-lime-15 {
+  background: #dde77a;
+}
+
+.background--lighter-lime-20 {
+  background: #e3eb90;
+}
+
+.background--lighter-yellow-5 {
+  background: #ffee55;
+}
+
+.background--lighter-yellow-10 {
+  background: #fff06e;
+}
+
+.background--lighter-yellow-15 {
+  background: #fff388;
+}
+
+.background--lighter-yellow-20 {
+  background: #fff5a1;
+}
+
+.background--lighter-amber-5 {
+  background: #ffc721;
+}
+
+.background--lighter-amber-10 {
+  background: #ffce3a;
+}
+
+.background--lighter-amber-15 {
+  background: #ffd454;
+}
+
+.background--lighter-amber-20 {
+  background: #ffdb6d;
+}
+
+.background--lighter-orange-5 {
+  background: #ffa21a;
+}
+
+.background--lighter-orange-10 {
+  background: #ffad33;
+}
+
+.background--lighter-orange-15 {
+  background: #ffb74d;
+}
+
+.background--lighter-orange-20 {
+  background: #ffc166;
+}
+
+.background--lighter-deep-orange-5 {
+  background: #ff6a3c;
+}
+
+.background--lighter-deep-orange-10 {
+  background: #ff7e55;
+}
+
+.background--lighter-deep-orange-15 {
+  background: #ff916f;
+}
+
+.background--lighter-deep-orange-20 {
+  background: #ffa588;
+}
+
+.background--lighter-brown-5 {
+  background: #896052;
+}
+
+.background--lighter-brown-10 {
+  background: #996b5b;
+}
+
+.background--lighter-brown-15 {
+  background: #a57868;
+}
+
+.background--lighter-brown-20 {
+  background: #af8778;
+}
+
+.background--lighter-grey-5 {
+  background: #ababab;
+}
+
+.background--lighter-grey-10 {
+  background: #b8b8b8;
+}
+
+.background--lighter-grey-15 {
+  background: #c4c4c4;
+}
+
+.background--lighter-grey-20 {
+  background: #d1d1d1;
+}
+
+.background--lighter-blue-grey-5 {
+  background: #6b8a99;
+}
+
+.background--lighter-blue-grey-10 {
+  background: #7b96a3;
+}
+
+.background--lighter-blue-grey-15 {
+  background: #8aa2ae;
+}
+
+.background--lighter-blue-grey-20 {
+  background: #99aeb8;
+}
+
 .block {
   background: #f7f7fe;
   height: 100%;
