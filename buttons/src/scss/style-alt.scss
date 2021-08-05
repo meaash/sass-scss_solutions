@@ -1,0 +1,14 @@
+@use 'colors';
+@use 'mixins' as *;
+
+.btn--success {
+ @include btn-alt(colors.$success, colors.$success-dark);
+}
+
+.btn--warning {
+@include btn-alt(colors.$warning, colors.$warning-dark);
+}
+
+.btn--danger {
+@include btn-alt(colors.$danger, colors.$danger-dark);
+}
