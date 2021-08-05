@@ -1,3 +1,79 @@
+.material-text--red {
+  color: #f44336;
+}
+
+.material-text--pink {
+  color: #e91e63;
+}
+
+.material-text--purple {
+  color: #9c27b0;
+}
+
+.material-text--deep-purple {
+  color: #673ab7;
+}
+
+.material-text--indigo {
+  color: #3f51b5;
+}
+
+.material-text--blue {
+  color: #2196f3;
+}
+
+.material-text--light-blue {
+  color: #03a9f4;
+}
+
+.material-text--cyan {
+  color: #00bcd4;
+}
+
+.material-text--teal {
+  color: #009688;
+}
+
+.material-text--green {
+  color: #4caf50;
+}
+
+.material-text--light-green {
+  color: #8bc34a;
+}
+
+.material-text--lime {
+  color: #cddc39;
+}
+
+.material-text--yellow {
+  color: #ffeb3b;
+}
+
+.material-text--amber {
+  color: #ffc107;
+}
+
+.material-text--orange {
+  color: #ff9800;
+}
+
+.material-text--deep-orange {
+  color: #ff5722;
+}
+
+.material-text--brown {
+  color: #795548;
+}
+
+.material-text--grey {
+  color: #9e9e9e;
+}
+
+.material-text--blue-grey {
+  color: #607d8b;
+}
+
 .text--red {
   color: #f44336;
 }
@@ -72,6 +148,18 @@
 
 .text--blue-grey {
   color: #607d8b;
+}
+
+.text--black {
+  color: #222;
+}
+
+.text--white {
+  color: #efefef;
+}
+
+.text--best-purple {
+  color: #8f44fd;
 }
 
 .background--red {

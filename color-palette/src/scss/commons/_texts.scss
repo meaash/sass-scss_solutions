@@ -1,4 +1,6 @@
 @use "../variables/colors";
+@use "../variables/lighter-colors";
 @use "../mixins/texts" as mixins;
 
-@include mixins.generate-colored-texts('500');
+@include mixins.generate-material-designed-texts('500');
+@include mixins.generate-colored-texts(lighter-colors.$simple-colors, lighter-colors.$base-colors);
