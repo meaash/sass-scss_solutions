@@ -1,11 +1,10 @@
-@use "../variables/colors";
-@use "../variables/lighter-colors";
+@use "../variables/material-colors";
 @use "sass:map";
 @use "sass:color";
 
 @mixin generate-colored-background($color-variant: '500') {
     
-    @each $key, $value in colors.$material-colors {
+    @each $key, $value in material-colors.$material-colors {
         .background--#{$key} {
             background: map.get($value, $color-variant);
         }

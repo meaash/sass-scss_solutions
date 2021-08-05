@@ -1,10 +1,9 @@
-@use "../variables/colors";
-@use "../variables/lighter-colors";
+@use "../variables/material-colors";
 @use "sass:map";
 
 @mixin generate-material-designed-texts($color-variant: '500') {
     
-    @each $key, $value in colors.$material-colors {
+    @each $key, $value in material-colors.$material-colors {
         .material-text--#{$key} {
             color: map.get($value, $color-variant);
         }
