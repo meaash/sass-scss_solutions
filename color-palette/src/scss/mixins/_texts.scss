@@ -1,0 +1,11 @@
+@use "../variables/colors";
+@use "sass:map";
+
+@mixin generate-colored-texts($color-variant: '500') {
+    
+    @each $key, $value in colors.$material-colors {
+        .text--#{$key} {
+            color: map.get($value, $color-variant);
+        }
+    }
+}

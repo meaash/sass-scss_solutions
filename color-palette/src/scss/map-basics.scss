@@ -1,0 +1,30 @@
+//color: #8f44fd;
+@use "sass:map";
+
+$colors: (
+    success: #80ff80,
+    warning: #ffbf80,
+    danger: #ff8080,
+);
+
+$base-colors: (
+    white: #fff,
+    black: #1f1f1f,
+);
+
+//@debug map-get($map: $colors, $key: success); /*globálisan*/
+@debug map.get($map: $colors, $key: success);
+@debug map.has-key($colors, test);
+@debug map.keys($colors);
+@debug map.merge($colors, $base-colors);
+
+$all-colors: map.merge($colors, $base-colors);
+@debug $all-colors; 
+@debug map.remove($colors, success);   
+$colors: map.remove($colors, success); 
+@debug $colors;
+@debug map.values($colors);
+
+
+
+

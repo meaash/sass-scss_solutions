@@ -1,0 +1,22 @@
+$grid: 12;
+@for $i from 1 to $grid {
+    .col-#{$i} {
+        width: 100% * $i / $grid;
+    }
+}
+
+$colors: (
+    success: #80ff80,
+    warning: #ffbf80,
+    danger: #ff8080,
+);
+
+@each $key, $value in $colors {
+    @if $key !=black and $key != white {
+        .text--#{key} {
+            color: $value;
+        }
+    }
+    //@else
+    //@else if
+}

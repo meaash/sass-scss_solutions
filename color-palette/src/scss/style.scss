@@ -1,0 +1,36 @@
+@use 'commons/texts';
+@use 'commons/backgrounds';
+
+.block {
+    background: #f7f7fe;
+    height: 100%;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+
+
+.text-div {
+    margin: 0 auto;
+    width: 12rem;
+    height: 4.5rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: #f7f7f7;
+    background: #8f44fd;
+    box-shadow: 0 45px 75px rgba(58, 35, 91, 0.09);
+    text-align: center;
+  }
+
+  .text{
+    font: 1rem/1.5 Arial, Helvetica, sans-serif;
+}
+
+  /*.text--red {
+      color: map.get(map.get(colors.$material-colors, 'red'), '500');
+  }*/
+
+
+

@@ -1,0 +1,9 @@
+@use "sass:list";
+
+$padding: .5rem, 0.75rem, 1rem, 2rem;
+
+@debug list.nth($padding, 2);
+@debug list.append($padding, 3rem)
+
+
+
