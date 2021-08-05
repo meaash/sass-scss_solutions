@@ -10,4 +10,6 @@ $base: map.get(colors.$colors, base);
 @include mixins.generate-material-designed-texts('500');
 
 //@include mixins.generate-colored-texts($theme, lighter-colors.$base-colors);
-@include mixins.generate-colored-texts($theme, $base);
+@include mixins.generate-colored-texts(
+    map.merge($theme, $base)
+    );
