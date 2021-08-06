@@ -2,11 +2,20 @@
 @use "sass:map";
 @use "sass:color";
 
-@mixin generate-colored-background($color-variant: '500') {
+@mixin generate-material-colored-background($color-variant: '500') {
     
     @each $key, $value in material-colors.$material-colors {
-        .background--#{$key} {
+        .material-background--#{$key} {
             background: map.get($value, $color-variant);
+        }
+    }
+}
+
+@mixin generate-colored-background($palette) {
+    
+    @each $key, $value in $palette {
+        .background--#{$key} {
+            background: $value;
         }
     }
 }

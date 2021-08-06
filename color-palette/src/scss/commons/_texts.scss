@@ -15,4 +15,4 @@
     map.merge($theme, $base)
     );*/
 
-    @include mixins.generate-colored-texts(map.merge(var(theme), var(base)));
+    @include mixins.generate-colored-texts(map.merge((var(themes-#{var(defaultTheme)})), var(base)));

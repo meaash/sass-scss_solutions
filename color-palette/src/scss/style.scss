@@ -1,7 +1,7 @@
 @use 'commons/texts';
 @use 'commons/backgrounds';
 
-.block {
+.container {
     background: #f7f7fe;
     height: 100%;
     margin: 0 auto;
@@ -10,16 +10,14 @@
 
 
 .text-div {
-    margin: 0 auto;
+    margin: 1rem;
     width: 12rem;
-    height: 4.5rem;
+    height: 4rem;
     padding: 1rem;
     border-radius: 0.5rem;
     font-size: 1.25rem;
     font-weight: 600;
     letter-spacing: 3px;
-    color: #f7f7f7;
-    background: #8f44fd;
     box-shadow: 0 45px 75px rgba(58, 35, 91, 0.09);
     text-align: center;
   }

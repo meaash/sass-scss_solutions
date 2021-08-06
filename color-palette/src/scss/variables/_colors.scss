@@ -6,7 +6,8 @@ base: (
   best-purple: #8f44fd,
 ),
 
-theme: (
+defaultTheme: flatui,
+themes: (
   material: (
     // primary, secondary, info, warning, danger, success
 
@@ -16,9 +17,9 @@ theme: (
     "info": #607d8b,
     "warning":#ffc107,
     "danger": #ff5722,
-)
+    ),
 
-  flatui : (
+  flatui: (
 
     "success" : #2ecc71,
     "primary" : #8e44ad,
@@ -27,7 +28,7 @@ theme: (
     "pumpkin" : #d35400,
     "danger" : #e74c3c,
     "secondary" : #bdc3c7,
-  )
+  ),
 ),
 
 all-color-theme: (
@@ -51,7 +52,7 @@ all-color-theme: (
     "brown": #795548,
     "grey": #9e9e9e,
     "blue-grey": #607d8b,
-)
+),
 
   flatui : (
     "turquoise" : #1abc9c,
