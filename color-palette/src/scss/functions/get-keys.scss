@@ -1,0 +1,23 @@
+@use "../variables/colors";
+@use "sass:map";
+@use "sass:list";
+@use "sass:string";
+
+@function get-keys($string, $separator) {
+    //theme-red
+    //material-theme-red
+    $keys: ();
+    $index: string.index($string, $separator);
+    @while $index {
+        $key: string.slice($string, 1, $index - 1); //cut from 1 to index
+        $keys: list.append($keys, $key);
+        $string: string.slice($string, $index + 1);  //cut index+1 to end
+        $index: string.index($string, $separator); //modify 
+    }
+    $keys: list.append($keys, $string);
+    @return $keys;
+    
+}
+
+//@debug (theme-red);
+

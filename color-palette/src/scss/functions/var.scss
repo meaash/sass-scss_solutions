@@ -1,0 +1,40 @@
+@use "../variables/colors";
+@use "get-keys";
+
+@use "sass:map";
+@use "sass:list";
+@use "sass:string";
+
+@function var ($string, $separator: '-', $data: colors.$colors) {
+    $keys: get-keys.get-keys($string, $separator);
+//   @debug $keys;
+    @each $key in $keys {
+//      @debug $data;
+        $data: map.get($data, $key);
+    }
+
+    @return $data;
+}
+
+//@debug var(theme-bluegrey);
+//@debug var('material-theme:red:500', ':'); //#f44336
+
+
+$material-colors: map.get(colors.$colors, material-theme);
+/*
+ https://github.com/nilskaspersson/Google-Material-UI-Color-Palette/
+ 
+ */
+@function material-color($color-name, $color-variant: '500') {
+
+  @if map.has-key($material-colors, $color-name) {
+    $color: map-get(map-get($material-colors, $color-name), $color-variant);
+    @return $color
+  }
+  @else {
+    @error "No color found | Your #{$color-name}, #{$color-variant} pair are not in in the material-colors map.";
+  }
+}
+
+//@debug material-color('indigo'); /* out:  #3f51b5*/
+//@debug material-color('test');

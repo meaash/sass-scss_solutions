@@ -2,14 +2,17 @@
 @use "../variables/lighter-colors";
 @use "../variables/colors";
 @use "sass:map";
+@use "../functions/var.scss" as *;
 @use "../mixins/texts" as mixins;
 
-$theme: map.get(colors.$colors, theme);
-$base: map.get(colors.$colors, base);
+//$theme: map.get(colors.$colors, theme);
+//$base: map.get(colors.$colors, base);
 
 @include mixins.generate-material-designed-texts('500');
 
 //@include mixins.generate-colored-texts($theme, lighter-colors.$base-colors);
-@include mixins.generate-colored-texts(
+/*@include mixins.generate-colored-texts(
     map.merge($theme, $base)
-    );
+    );*/
+
+    @include mixins.generate-colored-texts(map.merge(var(theme), var(base)));
