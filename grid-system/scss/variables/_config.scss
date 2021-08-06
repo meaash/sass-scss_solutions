@@ -18,12 +18,12 @@ $config: (
                 )
         ),
         column: (
-                classname: column,
+                classname: col,
                 postfix: (
-                        default: default, //column--default-12
-                        mobile: mobile,   //column--mobile-6
-                        tablet: tablet,   //column--tablet-4
-                        desktop: desktop  //column--desktop-3
+                        default: xs, //column--default-12
+                        mobile: sm,   //column--mobile-6
+                        tablet: md,   //column--tablet-4
+                        desktop: lg  //column--desktop-3
                 ),
                 padding: (
                         default: 10px,
