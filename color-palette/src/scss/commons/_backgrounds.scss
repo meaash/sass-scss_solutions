@@ -2,9 +2,11 @@
 @use "../mixins/backgrounds";
 @use "../variables/colors";
 @use "../functions/var.scss" as *;
+@use "../functions/get-default-theme.scss" as *;
 @use "sass:map";
 
 //$theme: map.get(colors.$colors, theme);
+$theme: get-default-theme();
 
 @include backgrounds.generate-material-colored-background('400');
 //@include backgrounds.generate-lighter-colored-background(lighter-colors.$simple-colors, lighter-colors.$lighter-colors);
@@ -13,7 +15,7 @@
 //@include backgrounds.generate-lighter-colored-background($theme, map.get(colors.$colors, lighter));
 //@include backgrounds.generate-darker-colored-background($theme, map.get(colors.$colors, darker));
 
-@include backgrounds.generate-colored-background((var(themes-#{var(defaultTheme)})));
+@include backgrounds.generate-colored-background($theme);
 
-@include backgrounds.generate-lighter-colored-background((var(themes-#{var(defaultTheme)})), var(lighter));
-@include backgrounds.generate-darker-colored-background((var(themes-#{var(defaultTheme)})), var(darker));
+@include backgrounds.generate-lighter-colored-background($theme, var(lighter));
+@include backgrounds.generate-darker-colored-background($theme, var(darker));

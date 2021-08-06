@@ -4,6 +4,9 @@
 @use "sass:map";
 @use "../functions/var.scss" as *;
 @use "../mixins/texts" as mixins;
+@use "../functions/get-default-theme.scss" as *;
+
+$theme: get-default-theme();
 
 //$theme: map.get(colors.$colors, theme);
 //$base: map.get(colors.$colors, base);
@@ -15,4 +18,4 @@
     map.merge($theme, $base)
     );*/
 
-    @include mixins.generate-colored-texts(map.merge((var(themes-#{var(defaultTheme)})), var(base)));
+    @include mixins.generate-colored-texts(map.merge($theme, var(base)));
